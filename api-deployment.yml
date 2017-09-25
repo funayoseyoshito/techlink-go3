@@ -27,7 +27,7 @@ spec:
                   key: username
           ports:
             - containerPort: 4000
-              name: wordpress
+              name: api
         - image: gcr.io/cloudsql-docker/gce-proxy:1.09
           name: cloudsql-proxy
           command: ["/cloud_sql_proxy", "--dir=/cloudsql",
