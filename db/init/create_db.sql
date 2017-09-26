@@ -1,4 +1,4 @@
-create database user;
+-- create database user;
 use user;
 CREATE TABLE `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
